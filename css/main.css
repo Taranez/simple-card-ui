@@ -1,0 +1,106 @@
+* {
+  font-family: outfit;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+section {
+  width: 1440px;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+}
+.card {
+  background-color: hsl(216, 50%, 16%);
+  width: 340px;
+  border-radius: 15px;
+  margin: 40px auto 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card_container {
+  width: 300px;
+  margin-top: 20px;
+}
+.card_container img {
+  width: 100%;
+  height: auto;
+}
+
+/* ----------- card info ------------- */
+.header {
+  color: white;
+  font-weight: 600;
+  margin: 20px 0px 20px 20px;
+}
+.paragraph {
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.middle__portion {
+  width: 300px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.line {
+  height: 1px;
+  width: 300px;
+  background-color: hsl(215, 32%, 27%);
+}
+
+.token__value--container, 
+.time--container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.token_value {
+  color: hsl(178, 100%, 50%);
+  margin-left: 10px;
+}
+.time {
+  color: hsl(215, 51%, 70%);
+  margin-left: 10px;
+}
+.user__profile--container {
+  width: 30px;
+}
+.user__profile--container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* ------bottom portion-------- */
+.bottom__portion {
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.bottom__portion p {
+  color: hsl(215, 51%, 70%);
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+  margin-left: 10px;
+}
+.bottom__portion p span {
+  color: white;
+}
+.bottom__portion a {
+  text-decoration: none;
+}
